@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.green {
+    width: 700px;
+    height: 400px;
+    background: green;
+    position: relative;
+}
+
+.red {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.fb {
+    width: 150px;
+    position: fixed;
+    top: 45%;
+    right: -100px;
+    transition: 1s;
+}
+
+.fb:hover {
+    right: 4px;
+    cursor: pointer;
+}
+
+.yt {
+    width: 250px;
+    position: fixed;
+    top: 48%;
+    right: -210px;
+    transition: 1s;
+}
+
+.yt:hover {
+    right: 4px;
+    cursor: pointer;
+}
+
+.wt {
+    width: 150px;
+    position: fixed;
+    top: 59%;
+    right: -100px;
+    transition: 1s;
+}
+
+.wt:hover {
+    right: 4px;
+    cursor: pointer;
+}
+
+.social-icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.social-icons li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: blueviolet;
+    color: white;
+    font-size: 40px;
+    margin: 0px 15px;
+    transition: 1s;
+}
+
+.social-icons li a:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
